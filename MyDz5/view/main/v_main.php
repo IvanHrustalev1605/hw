@@ -3,8 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title><?=$title?></title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link href="css/main.css" rel="stylesheet">
+	<link rel="stylesheet" href="<?=BASE_URL?>/bootstrap.min.css">
+	<link href="<?=BASE_URL?>/main.css" rel="stylesheet">
 </head>
 <body>
 	<header>
