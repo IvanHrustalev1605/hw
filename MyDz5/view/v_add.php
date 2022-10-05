@@ -1,5 +1,5 @@
 
-<a href = 'index.php'>All articles<a>
+<a href = '<?=BASE_URL?>'>All articles<a>
 
 <main>
 	<h1>Addit the message</h1>

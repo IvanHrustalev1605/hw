@@ -1,7 +1,6 @@
 <?php
 $arr = [];
-
-    $id = $_GET["id"];
+    
 
     $row = AddArticle($id);
     foreach ($row as $r){

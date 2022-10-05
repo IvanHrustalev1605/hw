@@ -35,10 +35,8 @@ function CreatDB(){
             return $row;
     }
     
-    function DelArticle(){
+    function DelArticle($id){
         $db = CreatDB();
-        $parm = [];
-        $id = $_GET["id"];
         $sql = "DELETE  FROM articles WHERE id_article = '$id'";
         $query = $db -> prepare($sql);
         $query -> execute($_GET);

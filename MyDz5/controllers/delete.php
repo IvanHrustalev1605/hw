@@ -1,8 +1,8 @@
 <?php
-$query = DelArticle();
+$query = DelArticle($id);
 if($query){
          
-    header('Location:index.php');
+header('Location:/hw/MyDz5/');
 }
 else{
     echo "Ошибка: ";

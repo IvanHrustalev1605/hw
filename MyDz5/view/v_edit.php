@@ -1,6 +1,6 @@
 
 <hr>
-<a href = 'index.php'>All articles<a>
+<a href = '<?=BASE_URL?>'>All articles<a>
 
 <main>
 	<h1>Create new message</h1>

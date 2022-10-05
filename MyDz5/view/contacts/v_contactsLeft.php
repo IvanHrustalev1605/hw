@@ -1,4 +1,4 @@
-<link href="css/main.css" rel="stylesheet">
+
 <p class = 'p'><a href = ''>Phone</a></p>
 <hr>
 <p class = 'p'><a href = ''>Email</a></p>

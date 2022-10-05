@@ -16,7 +16,7 @@
         <dt class="col-sm-3">Содержание:</dt>
         <dd class="col-sm-9"><?=$value['content']?></dd>
 
-           <p><a href = 'index.php'>Back to the All Article</a></p>
+           <p><a href = '<?=BASE_URL?>'>Back to the All Article</a></p>
 
     </dl>  
     <?endforeach?> 

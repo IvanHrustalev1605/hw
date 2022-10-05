@@ -22,7 +22,7 @@
                             elseif($value['id_cat'] == 4) echo 'design';?>
         </dd>
        <p>
-           <a href = 'index.php?c=onearticle&id=<?=$id?>'>More Information</a></p>
+           <a href = '<?=BASE_URL?>OneArticle/<?=$id?>'>More Information</a></p>
 
     </dl>   
     <?endforeach;?>

@@ -3,8 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title><?=$title?></title>
-	<link rel="stylesheet" href="<?=BASE_URL?>/bootstrap.min.css">
-	<link href="<?=BASE_URL?>/main.css" rel="stylesheet">
+	<link rel="stylesheet" href="<?=BASE_URL?>css/bootstrap.min.css">
+	<link rel="stylesheet" href="<?=BASE_URL?>css/main.css" >
 </head>
 <body>
 	<header>
@@ -19,16 +19,16 @@
 		<div class="container">
 			<ul class="nav">
 				<li class="nav-item">
-					<a class="nav-link" href="index.php">Home</a>
+					<a class="nav-link" href="<?=BASE_URL?>">Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="index.php?c=edit">Edit</a>
+					<a class="nav-link" href="<?=BASE_URL?>edit">Edit</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="index.php?c=cat">Categories</a>
+					<a class="nav-link" href="<?=BASE_URL?>cat">Categories</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="index.php?c=contacts">Contacts</a>
+					<a class="nav-link" href="<?=BASE_URL?>contacts">Contacts</a>
 				</li>
 			</ul>
 		</div>

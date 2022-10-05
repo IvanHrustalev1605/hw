@@ -1,6 +1,6 @@
-<link href="css/main.css" rel="stylesheet">
+
 <?php
-$id = $_GET['id'];
+
 $row = GetOneArticle($id);
 If (!empty($row)){
 $pageTitle = 'One article';

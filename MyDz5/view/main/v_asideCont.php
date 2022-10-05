@@ -1,5 +1,5 @@
-<a href = 'index.php?c=delete&id=<?=$id?>'>Delete Article</a>
+<a href = "<?=BASE_URL?>delete/<?=$id?>">Delete Article</a>
 <hr>
-<a href = 'index.php?c=add&id=<?=$id?>'>Add Article</a>
+<a href = "<?=BASE_URL?>add/<?=$id?>">Add Article</a>
 <hr>
-<a href = 'index.php'>Main page</a>
+<a href = "<?=BASE_URL?>">Main page</a>
