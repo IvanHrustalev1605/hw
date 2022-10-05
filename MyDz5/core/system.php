@@ -7,6 +7,15 @@ function template(string $path, array $var = []) : string{
     return ob_get_clean();
      
 }
+function parseUrl($url){
+    $params = explode('/', $url);
+    $cnt = count($params);
 
+    if($params[$cnt - 1] === ''){
+        unset($params[$cnt - 1]);
+    }
+
+    return $params;
+}
 
 ?>
