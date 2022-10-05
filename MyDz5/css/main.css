@@ -1,0 +1,14 @@
+html{
+    max-width: 1300px;
+    margin:0 auto;
+}
+header{
+    background-color: rgb(134, 221, 167);
+}
+footer{
+    background-color: rgb(134, 221, 167);
+    padding: 25px;
+}
+.p{
+    margin: 20px;
+}
